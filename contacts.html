@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+<style>
+    @font-face {
+        font-family: 'Seasons';
+        src: url(fonts/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf);
+    }
+    body{
+        background-image: url(images/potfoliobg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    *{
+        text-decoration: none;
+    }
+    .navbar{
+        font-family:sans-serif; 
+        position: absolute;
+    }
+    .navdiv{
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+    }
+    li{
+       list-style: none; 
+       display: inline-block;
+    }
+    li a{
+        color: white; font-size: 15px; font-weight: lighter; margin-right: 25px;
+    }
+    li a:hover{
+        text-decoration: underline;
+        text-shadow: black;
+        transform: scale(1.1);
+    }
+    .contacts-style{
+        font-size: 70px;
+        color: white;
+        position:absolute;
+        margin-top: 60px;
+        margin-left: 25px;
+        font-family: 'Seasons';
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 300px;
+    }
+    .box1, .box2, .box3, .box4 {
+        width: 110px;
+        height: 100px;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: transform 0.3s ease-in-out;
+        margin-left: 30px;
+    
+    }
+    .box1:hover, .box2:hover, .box3:hover, .box4:hover {
+        transform: scale(1.1);
+    }
+    figcaption {
+        color: white;
+        font-size: 16px;
+        margin-top: 5px;
+        text-align: center;
+    }
+.button{
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 1070px;
+    }
+    .button:hover{
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 1070px;
+        transform: scale(1.05);
+    }
+
+</style>
+</head>
+<body>
+    
+    <nav class="navbar" id="contacts">
+        <div class="navdiv">
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="contacts-style">Contacts</h1>
+    <div class="container">
+        <div class="box3">
+            <figure>
+                <a href="https://www.instagram.com/jndvgrcs/"><img src="https://i.ibb.co/93kXmtw8/3.png" alt="instagram" width="300"></a>
+                <figcaption>aj_theprdgy</figcaption>
+            </figure>
+        </div>
+
+        <div class="box2">
+            <figure>
+                <a href="https://www.facebook.com/jhondave.garces.1"><img src="https://i.ibb.co/Zp9cpHVq/2.png" alt="facebook" width="300"></a>
+                <figcaption>Aj</figcaption>
+            </figure>
+        </div>
+
+        <div class="box4">
+            <figure>
+                <a href="mailto:jhondavegarces01@gmail.com"><img src="https://i.ibb.co/tPpttvjh/4.png" alt="gmail" width="300"></a>
+                <figcaption>trinidadjerovil@gmail.com</figcaption>
+            </figure>
+        </div>
+
+        <div class="box1">
+            <figure>
+                <a href="tel:+639124141740"><img src="https://i.ibb.co/PGTNS8NT/1.png" alt="phone number" width="300"></a>
+                <figcaption>09754523489</figcaption>
+            </figure>
+        </div>
+    </div>
+    <a href="about.html" ><img class="button" src="images/next button.png" width="70"></a>
+</body>
+</html>
